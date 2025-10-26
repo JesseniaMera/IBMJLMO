@@ -4,10 +4,10 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 // En TelefonoController.php
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/config/database.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/app/models/Telefono.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/config/database.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/app/models/Telefono.php';
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/app/models/Persona.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/app/models/Persona.php';
 class TelefonoController {
     private $telefono;
     private $db;

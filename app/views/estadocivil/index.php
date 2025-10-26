@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listar Estados Civiles</title>
-    <link rel="stylesheet" href="/microsoftajeo/public/css/style.css">
+    <link rel="stylesheet" href="/ibmjlmo/public/css/style.css">
 </head>
 <body>
 
 <div class="container">
     <h1>Listar Estados Civiles</h1>
-    <a href="/microsoftajeo/app/views/estadocivil/create.php"><button>Agregar</button></a>
+    <a href="/ibmjlmo/app/views/estadocivil/create.php"><button>Agregar</button></a>
 
     <table>
         <thead>
@@ -27,10 +27,10 @@
                         <td><?php echo htmlspecialchars($estadocivil['idestadocivil']); ?></td>
                         <td><?php echo htmlspecialchars($estadocivil['nombre']); ?></td>
                         <td>
-                            <a href="/microsoftajeo/public/estadocivil/edit?idestadocivil=<?php echo htmlspecialchars($estadocivil['idestadocivil']); ?>">
+                            <a href="/ibmjlmo/public/estadocivil/edit?idestadocivil=<?php echo htmlspecialchars($estadocivil['idestadocivil']); ?>">
                                 <button>Editar</button>
                             </a>
-                            <a href="/microsoftajeo/public/estadocivil/eliminar?idestadocivil=<?php echo htmlspecialchars($estadocivil['idestadocivil']); ?>"
+                            <a href="/ibmjlmo/public/estadocivil/eliminar?idestadocivil=<?php echo htmlspecialchars($estadocivil['idestadocivil']); ?>"
                                onclick="return confirm('¿Estás seguro de eliminar este registro?');">
                                 <button>Eliminar</button>
                             </a>
@@ -46,6 +46,6 @@
     </table>
 </div>
 
-<script src="/microsoftajeo/public/js/script.js"></script>
+<script src="/ibmjlmo/public/js/script.js"></script>
 </body>
 </html>

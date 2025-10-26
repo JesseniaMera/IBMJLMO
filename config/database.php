@@ -2,9 +2,9 @@
 //base de datos configurada stalin francis
 class Database {
     private $host = "localhost";
-    private $db_name = "microsoftajeo";
-    private $username = "microsoftajeo";
-    private $password = "microsoftajeo";
+    private $db_name = "ibmjlmo";
+    private $username = "ibmjlmo";
+    private $password = "ibmjlmo";
     private $conn;
 
     public function getConnection() {

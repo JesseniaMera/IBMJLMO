@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Listar Personas</title>
-    <link rel="stylesheet" href="/microsoftajeo/public/css/style.css">
+    <link rel="stylesheet" href="/ibmjlmo/public/css/style.css">
 </head>
 <body>
 
 <div class="container">
     <h1>Lista de Personas</h1>
-    <a href="/microsoftajeo/public/persona/create"><button>Agregar</button></a>
+    <a href="/ibmjlmo/public/persona/create"><button>Agregar</button></a>
 
     <table>
         <thead>
@@ -33,13 +33,13 @@
                         <td><?php echo htmlspecialchars($persona['apellidos']); ?></td>
                         <td><?php echo htmlspecialchars($persona['fechanacimiento']); ?></td>
                         <td><?php echo htmlspecialchars($persona['elsexo']); ?></td> <td><?php echo htmlspecialchars($persona['elestadocivil']); ?></td> <td>
-                            <a href="/microsoftajeo/public/persona/view?idpersona=<?php echo htmlspecialchars($persona['idpersona']); ?>">
+                            <a href="/ibmjlmo/public/persona/view?idpersona=<?php echo htmlspecialchars($persona['idpersona']); ?>">
                                 <button>View</button>
                             </a>
-                            <a href="/microsoftajeo/public/persona/edit?idpersona=<?php echo htmlspecialchars($persona['idpersona']); ?>">
+                            <a href="/ibmjlmo/public/persona/edit?idpersona=<?php echo htmlspecialchars($persona['idpersona']); ?>">
                                 <button>Editar</button>
                             </a>
-                            <a href="/microsoftajeo/public/persona/deleteForm?id=<?php echo htmlspecialchars($persona['idpersona']); ?>"
+                            <a href="/ibmjlmo/public/persona/deleteForm?id=<?php echo htmlspecialchars($persona['idpersona']); ?>"
                                onclick="return confirm('¿Estás seguro de eliminar esta persona?');">
                                 <button>Eliminar</button>
                             </a>
@@ -55,6 +55,6 @@
     </table>
 </div>
 
-<script src="/microsoftajeo/public/js/script.js"></script>
+<script src="/ibmjlmo/public/js/script.js"></script>
 </body>
 </html>

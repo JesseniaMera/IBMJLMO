@@ -3,12 +3,12 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/config/database.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/app/models/Persona.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/app/models/Sexo.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/app/models/Estadocivil.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/app/models/Direccion.php';
-require_once $_SERVER['DOCUMENT_ROOT'] . '/microsoftajeo/app/models/Telefono.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/config/database.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/app/models/Persona.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/app/models/Sexo.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/app/models/Estadocivil.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/app/models/Direccion.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/ibmjlmo/app/models/Telefono.php';
 class PersonaController {
     private $persona;
     private $db;

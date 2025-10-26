@@ -8,7 +8,7 @@
 <body>
 
 <h1>Editar el Sexo</h1>
-<form action="/microsoftajeo/public/sexo/delete" method="POST">
+<form action="/ibmjlmo/public/sexo/delete" method="POST">
     <input type="hidden" name="idsexo" value="<?php echo htmlspecialchars($sexo['idsexo']); ?>">
     
     <label for="nombre">Nombre:</label>
